@@ -16,6 +16,7 @@ export default class TodoList extends Component {
         }
     )}
     <button type="button" onClick={clearList} className="btn btn-danger btn-block mt-5 text-capitalize">Clear all list</button>
+    <button className="btn btn-warning">Button</button>
       </ul>
     )
   }
